@@ -1,0 +1,301 @@
+#github-linkedin {
+  width: 30px;
+  height: 30px;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#text-color {
+  color: #42446e;
+}
+
+#titles {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 20px;
+  color: #42446e;
+}
+
+#subtitle {
+  color: rgba(102, 102, 102, 1);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 20px;
+}
+
+/*               NAVBAR               */
+.navbar {
+  background: #f5f5f5;
+}
+
+#text-navbar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #191919;
+}
+
+/*               HOME               */
+.Home {
+  padding: 150px;
+}
+
+#introduction {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
+#first-pic {
+  max-width: 350px;
+  max-height: 350px;
+}
+/*           MY TECH STACK           */
+
+#html {
+  width: 92.59px;
+  height: 105px;
+}
+
+#css {
+  width: 92.59px;
+  height: 105px;
+}
+
+#js {
+  width: 105.21px;
+  height: 106px;
+}
+
+#react {
+  width: 117.21px;
+  height: 106px;
+}
+
+#bootstrap {
+  width: 106px;
+  height: 105px;
+}
+
+#ts {
+  width: 105px;
+  height: 105px;
+}
+
+#netlify {
+  width: 105px;
+  height: 105px;
+}
+
+#vscode {
+  width: 105px;
+  height: 105px;
+}
+
+#github {
+  width: 105px;
+  height: 101px;
+}
+
+#figma {
+  width: 70px;
+  height: 105px;
+}
+
+/*                       PROJECTS                  */
+
+#cards {
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.app-titles {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 26px;
+  color: #42446e;
+}
+
+#app-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  color: #666666;
+}
+#tech-stack {
+  font-family: "Poppins";
+  font-style: bold;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #42446e;
+}
+
+.link-icons {
+  width: 20px;
+  height: 20px;
+}
+
+/*                   ABOUT ME                   */
+
+#aboutme {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 26px;
+  color: #42446e;
+}
+
+#description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 35px;
+}
+
+#skills {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+/*                    COURSES             */
+#title-courses {
+  letter-spacing: -1px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+#card-courses {
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#img-courses {
+  width: 70px;
+  height: 70px;
+}
+
+.card-title-courses {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -1px;
+  color: #42446e;
+}
+
+#card-subtitle-courses {
+  font-family: "Poppins";
+  font-style: normal;
+  color: #42446e;
+}
+
+#img-codecademy {
+  width: 50px;
+  height: 50px;
+}
+
+.title-codecademy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: -1px;
+
+  /* Solid Heading */
+
+  color: #42446e;
+}
+
+#subtitle-codecademy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: -1px;
+
+  /* Solid Heading */
+
+  color: #42446e;
+}
+#date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+#certificates {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 200% */
+
+  letter-spacing: -1px;
+
+  /* Gradient Heading */
+
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*                    CONTACT             */
+
+#contact {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  color: #42446e;
+}
+
+/*             FOOTER            */
+
+#list-footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  justify-content: space-around;
+}
+
+#contact-link {
+  text-decoration: none;
+  color: #42446e;
+}
