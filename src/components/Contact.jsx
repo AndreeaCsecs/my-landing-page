@@ -12,15 +12,19 @@ const Contact = () => {
         <div class="row row-cols-2 p-5 m-3 mb-5">
           <div class="col p-3 d-flex justify-content-end">
             <span className="fs-3 me-1">&#129305; </span>
-            <span className="align-self-center pe-5 me-2" id="contact-link">
-              +40 747 874 331
+            <span className="align-self-center pe-5 me-2">
+              <a href="tel:+40747874331" id="contact-link">
+                +40 747 874 331
+              </a>
             </span>
           </div>
 
           <div class="col p-3 d-flex justify-content-start">
             <span className="fs-3 me-1">&#128233; </span>
-            <span className="align-self-center" id="contact-link">
-              andreeacsecs@yahoo.com
+            <span className="align-self-center">
+              <a href="mailto:andreeacsecs@yahoo.com" id="contact-link">
+                andreeacsecs@yahoo.com
+              </a>
             </span>
           </div>
 

@@ -47,7 +47,7 @@ const Projects = () => {
                 <li className="list-inline-item mx-3">
                   <img src={link} alt="" className="link-icons" />
                   <a
-                    href="https://github.com/AndreeaCsecs"
+                    href="https://to-do-andreea.netlify.app/"
                     className="text-dark"
                     target="_blank"
                     rel="noreferrer"
