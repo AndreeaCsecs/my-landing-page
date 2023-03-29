@@ -11,7 +11,7 @@ const Home = () => {
           <br></br>
           I'm <span className="gradient">Andreea Csecs</span> a
           <span className="gradient"> polyglot</span> student looking for a
-          <span className="gradient"> Frontend Developer</span> role
+          <span className="gradient"> Frontend Developer</span> role.
         </div>
       </div>
 
