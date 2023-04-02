@@ -81,7 +81,6 @@ const Projects = () => {
             <div class="card-body">
               <p className="app-titles">
                 <b>Weather App </b>
-                (soon ⌛)
               </p>
               <p
                 class="card-text text-start text-muted my-3 mx-2"
@@ -90,14 +89,38 @@ const Projects = () => {
                 A simple weather app built using React would allow users to
                 input a location and receive current weather data for that
                 location, including temperature, humidity, and wind speed. The
-                app uses HTTP Requests to fetch data from api.weatherapi.com and
-                integrates with third-party libraries like React-Bootstrap to
-                provide a clean and user-friendly interface.
+                app uses HTTPS Requests to fetch data from api.weatherapi.com
+                and integrates with third-party libraries like React-Bootstrap,
+                to provide a clean and user-friendly interface.
               </p>
               <p className="text-start m-2 fw-bold" id="tech-stack">
-                Tech stack : HTML , CSS, JavaScript, React, Bootstrap, HTTP
+                Tech stack : HTML , CSS, JavaScript, React, Bootstrap, HTTPS
                 Requests
               </p>
+              <ul className="list-inline m-3">
+                <li className="list-inline-item mx-3">
+                  <img src={link} alt="" className="link-icons" />
+                  <a
+                    href="https://weather-andreea.netlify.app/"
+                    className="text-dark"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Preview
+                  </a>
+                </li>
+                <li className="list-inline-item mx-3">
+                  <img src={github} alt="" className="link-icons" />
+                  <a
+                    href="https://github.com/AndreeaCsecs/weather-app"
+                    className="text-dark"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Code
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
