@@ -12,7 +12,7 @@ import Courses from "./components/Courses";
 
 function App() {
   return (
-    <div className="App container" id="body">
+    <div className="App container">
       <Navbar />
       <Home />
       <Stack />

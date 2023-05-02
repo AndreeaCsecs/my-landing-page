@@ -18,7 +18,7 @@ const Projects = () => {
       </div>
 
       <div className="row row-cols-md-3 p-5 m-2">
-        <div class="col">
+        <div class="col" id="card-projects">
           <div
             class="card border-light"
             id="card-courses"
@@ -135,7 +135,6 @@ const Projects = () => {
             <div class="card-body">
               <p className="app-titles">
                 <b>Crypto App </b>
-                (soon ⌛)
               </p>
               <p
                 class="card-text text-start text-muted my-3 mx-2"
@@ -151,6 +150,30 @@ const Projects = () => {
                 Tech stack : HTML , CSS, JavaScript, React, Bootstrap, HTTP
                 Requests
               </p>
+              <ul className="list-inline m-3">
+                <li className="list-inline-item mx-3">
+                  <img src={link} alt="" className="link-icons" />
+                  <a
+                    href="https://crypto-andreea.netlify.app/"
+                    className="text-dark"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Preview
+                  </a>
+                </li>
+                <li className="list-inline-item mx-3">
+                  <img src={github} alt="" className="link-icons" />
+                  <a
+                    href="https://github.com/AndreeaCsecs/crypto-app"
+                    className="text-dark"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Code
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

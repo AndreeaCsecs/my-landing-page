@@ -286,3 +286,121 @@
   text-decoration: none;
   color: #42446e;
 }
+
+/*             MEDIA QUERIES            */
+
+@media all and (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  /*               HOME               */
+
+  .Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #introduction {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    width: 260px;
+    padding: 10px;
+  }
+  #first-pic {
+    max-width: 250px;
+    max-height: 250px;
+    padding: 10px;
+  }
+
+  /*           MY TECH STACK           */
+
+  #titles {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  #subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  #titles {
+    margin: 0px;
+    padding: 5px;
+  }
+
+  #first-stack {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  #second-stack {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  #html {
+    width: 40px;
+    height: 50px;
+  }
+
+  #css {
+    width: 40px;
+    height: 50px;
+  }
+
+  #js {
+    width: 50px;
+    height: 50px;
+  }
+
+  #react {
+    width: 60px;
+    height: 60px;
+  }
+
+  #bootstrap {
+    width: 50px;
+    height: 50px;
+  }
+
+  #ts {
+    width: 50px;
+    height: 50px;
+  }
+
+  #netlify {
+    width: 60px;
+    height: 60px;
+  }
+
+  #vscode {
+    width: 50px;
+    height: 50px;
+  }
+
+  #github {
+    width: 50px;
+    height: 50px;
+  }
+
+  #figma {
+    width: 30px;
+    height: 55px;
+  }
+
+/*                  PROJECTS                  */
+
+#card-projects{
+  
+}
+}

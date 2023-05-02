@@ -17,6 +17,7 @@ const Home = () => {
 
       <img src={picture} alt="" className="img-fluid mx-5" id="first-pic" />
     </div>
+    
   );
 };
 

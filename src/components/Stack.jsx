@@ -12,17 +12,17 @@ import figma from "./images/figma.png";
 
 const Stack = () => {
   return (
-    <div className="Stack text-center container p-5 my-5" id="techstack">
-      <div className="m-5 pt-4">
-        <p className="fw-bold m-4" id="titles">
+    <div className="Stack text-center container p-5 my-5">
+      <div className="mx-5 pt-4" id="techstack">
+        <p className="fw-bold my-4" id="titles">
           My Tech Stack
         </p>
-        <p className="m-5" id="subtitle">
+        <p className="my-5" id="subtitle">
           Technologies I've been working with recently
         </p>
       </div>
 
-      <div class="row pt-5 p-3 m-5">
+      <div class="row pt-5 p-3 m-5" id="first-stack">
         <div class="col">
           <img src={html} alt="" id="html" />
         </div>
@@ -39,7 +39,7 @@ const Stack = () => {
           <img src={bootstrap} alt="" id="bootstrap" />
         </div>
       </div>
-      <div class="row p-3 m-5">
+      <div class="row p-3 m-5" id="second-stack">
         <div class="col">
           <img src={ts} alt="" id="ts" />
         </div>

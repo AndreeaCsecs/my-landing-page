@@ -1,12 +1,13 @@
 import React from "react";
 import logoGithub from "./images/github.png";
 import logoLinkedin from "./images/linkedin.png";
+//import Offcanvas from "react-bootstrap/Offcanvas";
 
 const Navbar = () => {
   return (
     <div className="Navbar">
       <nav
-        class="navbar navbar-expand-lg navbar-light m-2 px-5"
+        class="navbar navbar-expand-lg navbar-light m-2 px-5 main-navigation"
         id="nav"
         style={{ backgroundColor: "white" }}
       >
