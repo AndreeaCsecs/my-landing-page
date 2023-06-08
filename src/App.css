@@ -119,6 +119,22 @@
 
 /*                  PROJECTS                  */
 
+.carousel-root {
+  max-width: 800px;
+  margin: 0 auto;
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(21px);
+}
+
+.card {
+  border: none !important;
+}
+
 #cards {
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -137,7 +153,7 @@
   font-weight: 300;
   font-size: 13px;
   line-height: 20px;
-  color: #666666;
+  color: #42446e;
 }
 
 #tech-stack {
@@ -149,9 +165,27 @@
   color: #42446e;
 }
 
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.legend {
+  color: #42446e !important;
+}
+
 .link-icons {
   width: 20px;
   height: 20px;
+}
+
+.control-dots {
+  display: none;
 }
 
 /*                   ABOUT ME                   */
@@ -285,122 +319,4 @@
 #contact-link {
   text-decoration: none;
   color: #42446e;
-}
-
-/*             MEDIA QUERIES            */
-
-@media all and (max-width: 576px) {
-  .container {
-    padding: 10px;
-  }
-
-  /*               HOME               */
-
-  .Home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  #introduction {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: -1px;
-    width: 260px;
-    padding: 10px;
-  }
-  #first-pic {
-    max-width: 250px;
-    max-height: 250px;
-    padding: 10px;
-  }
-
-  /*           MY TECH STACK           */
-
-  #titles {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
-  }
-
-  #subtitle {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-  }
-  #titles {
-    margin: 0px;
-    padding: 5px;
-  }
-
-  #first-stack {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
-    justify-content: center;
-  }
-
-  #second-stack {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
-    justify-content: center;
-  }
-
-  #html {
-    width: 40px;
-    height: 50px;
-  }
-
-  #css {
-    width: 40px;
-    height: 50px;
-  }
-
-  #js {
-    width: 50px;
-    height: 50px;
-  }
-
-  #react {
-    width: 60px;
-    height: 60px;
-  }
-
-  #bootstrap {
-    width: 50px;
-    height: 50px;
-  }
-
-  #ts {
-    width: 50px;
-    height: 50px;
-  }
-
-  #netlify {
-    width: 60px;
-    height: 60px;
-  }
-
-  #vscode {
-    width: 50px;
-    height: 50px;
-  }
-
-  #github {
-    width: 50px;
-    height: 50px;
-  }
-
-  #figma {
-    width: 30px;
-    height: 55px;
-  }
-
-/*                  PROJECTS                  */
-
-#card-projects{
-  
-}
 }
