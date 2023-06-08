@@ -30,7 +30,7 @@ const Projects = () => {
                 <b>Quiz App </b>
               </p>
               <p
-                class="card-text text-start text-muted my-4 mx-2"
+                class="card-text text-start text-muted  mx-2"
                 id="app-description"
               >
                 This is a simplified version of a quiz game that allows players
@@ -39,10 +39,10 @@ const Projects = () => {
                 quiz experience, where players can select a category and
                 difficulty level before starting the game.
               </p>
-              <p className="text-start m-2 mx-2 fw-bold" id="tech-stack">
+              <p className="text-start m-2 my-4 fw-bold" id="tech-stack">
                 Tech stack : HTML , CSS, JavaScript, React
               </p>
-              <ul className="list-inline m-2 mx-2">
+              <ul className="list-inline m-2 ">
                 <li className="list-inline-item">
                   <div type="button" className="btn btn-light github">
                     <a
@@ -95,7 +95,7 @@ const Projects = () => {
           >
             <img src={todolist} class="card-img-top" alt="..." />
             <div class="card-body">
-              <p className="app-titles">
+              <p className="app-titles mx-1">
                 <b>To-do app</b>
               </p>
               <p
@@ -116,7 +116,7 @@ const Projects = () => {
                 <li className="list-inline-item">
                   <div type="button" className="btn btn-light github">
                     <a
-                      href="https://crypto-andreea.netlify.app/"
+                      href="https://to-do-andreea.netlify.app/"
                       className="text-dark"
                       target="_blank"
                       rel="noreferrer"
@@ -136,7 +136,7 @@ const Projects = () => {
                 <li className="list-inline-item mx-3">
                   <div type="button" className="btn btn-light github m-2 ">
                     <a
-                      href="https://github.com/AndreeaCsecs/quiz-app"
+                      href="https://github.com/AndreeaCsecs/to-do-app"
                       className="text-dark"
                       target="_blank"
                       rel="noreferrer"
@@ -188,7 +188,7 @@ const Projects = () => {
                 <li className="list-inline-item">
                   <div type="button" className="btn btn-light github">
                     <a
-                      href="https://crypto-andreea.netlify.app/"
+                      href="https://weather-andreea.netlify.app/"
                       className="text-dark"
                       target="_blank"
                       rel="noreferrer"
@@ -208,7 +208,7 @@ const Projects = () => {
                 <li className="list-inline-item mx-3">
                   <div type="button" className="btn btn-light github m-2 ">
                     <a
-                      href="https://github.com/AndreeaCsecs/quiz-app"
+                      href="https://github.com/AndreeaCsecs/weather-app"
                       className="text-dark"
                       target="_blank"
                       rel="noreferrer"
