@@ -1,4 +1,5 @@
 import React from "react";
+import growthcube from "./images/growthcube.jpeg";
 import nttdata from "./images/nttdata.png";
 import ibm from "./images/ibm.png";
 import tp from "./images/tp.png";
@@ -554,6 +555,31 @@ const Courses = () => {
           <p className="ms-2 fw-bold" id="title-courses">
             Work experience:
           </p>
+
+          <div class="card border-light my-3" id="card-courses">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src={growthcube}
+                  class="img-fluid rounded-start m-2 mt-3"
+                  alt="..."
+                  id="img-courses"
+                />
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <span class="card-title-courses">
+                    Junior Frontend Developer
+                  </span>
+                  <br></br>
+                  <span class="card-text" id="card-subtitle-courses">
+                    Growthcube.io <br></br>
+                    <small class="text-muted">Nov 2022 - Present</small>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="card border-light my-3" id="card-courses">
             <div class="row g-0">
