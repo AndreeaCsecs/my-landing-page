@@ -561,7 +561,7 @@ const Courses = () => {
               <div class="col-md-2">
                 <img
                   src={growthcube}
-                  class="img-fluid rounded-start m-2 mt-3"
+                  class="img-fluid rounded m-2 mt-3"
                   alt="..."
                   id="img-courses"
                 />
