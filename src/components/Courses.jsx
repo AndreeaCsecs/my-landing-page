@@ -573,7 +573,7 @@ const Courses = () => {
                   </span>
                   <br></br>
                   <span class="card-text" id="card-subtitle-courses">
-                    Growthcube.io <br></br>
+                    Growthcube <br></br>
                     <small class="text-muted">Nov 2022 - Present</small>
                   </span>
                 </div>
